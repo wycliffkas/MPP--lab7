@@ -1,0 +1,3 @@
+The use of HashMap to track duplicates is a good idea, but it relies on both equals and hashCode being properly overridden in the Employee class.
+
+ Implement the hashCode method in the Employee class.

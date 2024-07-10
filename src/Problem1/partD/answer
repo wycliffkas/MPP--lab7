@@ -1,0 +1,2 @@
+The equals method considers the visited field when comparing Employee objects, which is incorrect for detecting duplicates based on name and salary alone. This can cause issues when checking for equality in the removeDuplicates method.
+Solution: Modify the equals method to exclude the visited field from the comparison.

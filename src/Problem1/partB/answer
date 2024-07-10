@@ -1,0 +1,3 @@
+The removeDuplicates method does not handle an empty list correctly. Attempting to add the first element without checking if the list is empty will cause an IndexOutOfBoundsException if employees is empty.
+
+The listsAreEqual method relies on the contains method, which in turn relies on the equals method. If equals is not properly overridden, this method will fail to correctly compare lists.
